@@ -21,6 +21,7 @@ public class KeyboardWrapper {
         center.addObserver(self, selector: "keyboardDidShowNotification:", name: UIKeyboardDidShowNotification, object: nil)
         center.addObserver(self, selector: "keyboardWillHideNotification:", name: UIKeyboardWillHideNotification, object: nil)
         center.addObserver(self, selector: "keyboardDidHideNotification:", name: UIKeyboardDidHideNotification, object: nil)
+        center.addObserver(self, selector: "keyboardWillChangeFrameNotification:", name: UIKeyboardWillChangeFrameNotification, object: nil)
     }
 
     /// Creates a new instance of `KeyboardWrapper`, adds itself as observer for `UIKeyboard` notifications and
@@ -53,6 +54,11 @@ public class KeyboardWrapper {
         let info = KeyboardInfo.fromNotificationUserInfo(notification.userInfo, state: .Hidden)
         delegate?.keyboardWrapper(self, didChangeKeyboardInfo: info)
     }
+
+    private dynamic func keyboardWillChangeFrameNotification(notification: NSNotification) {
+        let info = KeyboardInfo.fromNotificationUserInfo(notification.userInfo, state: .WillChange)
+        delegate?.keyboardWrapper(self, didChangeKeyboardInfo: info)
+    }
 }
 
 /// Represents the keyboard state.
@@ -73,6 +79,8 @@ public enum KeyboardState {
     /// Denotes state when the keyboard about to hide.
     /// Corresponds to `UIKeyboardWillHideNotification`.
     case WillHide
+
+    case WillChange
 }
 
 /// Represents info about keyboard extracted from `NSNotification`.

@@ -10,7 +10,7 @@
 		04F89AF30579284BD7A525B0F8756D17 /* KeyboardWrapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD32591BF65D229975B67B45D1D137DB /* KeyboardWrapper-dummy.m */; };
 		3BCBA84418308738C0A305B92D8EF405 /* Pods-KeyboardWrapper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D54F502EFB91C01E9DE6E30EC1A60C /* Pods-KeyboardWrapper_Example-dummy.m */; };
 		3E277BC581226F01F6E4CD5B4B47B4C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		4D2251241BCA686E00BB75AA /* KeyboardWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2251231BCA686E00BB75AA /* KeyboardWrapper.swift */; settings = {ASSET_TAGS = (); }; };
+		4D2251241BCA686E00BB75AA /* KeyboardWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2251231BCA686E00BB75AA /* KeyboardWrapper.swift */; };
 		4F76D1B4C515668C14395141F0502FB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		A2F077FF3B2D19BD077EFC57E9B27B7D /* Pods-KeyboardWrapper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A37577A86D8B304409C244B474BD08 /* Pods-KeyboardWrapper_Tests-dummy.m */; };
 		A7A8C074BD2565C3780E7C14A9DA8657 /* KeyboardWrapper.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3D228190E2D78CF97F0BFB280F675698 /* KeyboardWrapper.bundle */; };
@@ -55,7 +55,7 @@
 		3D228190E2D78CF97F0BFB280F675698 /* KeyboardWrapper.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyboardWrapper.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3F1FE2F707AB5BF1D82665944EE4F1A4 /* Pods-KeyboardWrapper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KeyboardWrapper_Example-frameworks.sh"; sourceTree = "<group>"; };
-		4D2251231BCA686E00BB75AA /* KeyboardWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardWrapper.swift; sourceTree = "<group>"; };
+		4D2251231BCA686E00BB75AA /* KeyboardWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = KeyboardWrapper.swift; sourceTree = "<group>"; tabWidth = 4; };
 		535E6B463907A96A970BC378566EBCFE /* Pods-KeyboardWrapper_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KeyboardWrapper_Example-resources.sh"; sourceTree = "<group>"; };
 		56D4FE680F97461574A754D5E8A6D85D /* Pods-KeyboardWrapper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KeyboardWrapper_Example.modulemap"; sourceTree = "<group>"; };
 		56E7F9F3A690A9CC20065782E5A0F6DC /* Pods-KeyboardWrapper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyboardWrapper_Tests.release.xcconfig"; sourceTree = "<group>"; };
